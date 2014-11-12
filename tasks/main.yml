@@ -1,0 +1,10 @@
+---
+# tasks file for avahi-common
+
+- name: Create avahi aliases config dir.
+  file:
+    path: "{{AVAHI_ALIASES_CONFIG_DIR}}"
+    state: directory
+    owner: root
+    group: root
+    mode: 0755

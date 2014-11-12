@@ -1,0 +1,3 @@
+---
+# defaults file for avahi-common
+AVAHI_ALIASES_CONFIG_DIR: /etc/avahi/aliases.d
